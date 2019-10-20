@@ -1,0 +1,6 @@
+######################################################
+#        	   SCRIPT PARA EXECUÇÃO
+######################################################
+#!/bin/bash
+echo "Executando aplicação..."
+python3 /usr/src/solvelinsystem/main.py
