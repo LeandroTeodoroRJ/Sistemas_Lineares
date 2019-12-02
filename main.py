@@ -31,6 +31,7 @@ num_equacao = np.zeros((num_inc,num_inc+1), dtype=np.float)  #Forma a matriz pri
 resultado = np.zeros((num_inc), dtype=np.float)              #Forma o conjunto resultado
 
 print('Obs: O último coeficiente de cada equação será o termo independente.')
+print('Exemplo: Para ax+by+c=0 digite a, b, c quando pedido.')
 count_eq = 0
 while(count_eq < num_inc):                 #Localiza a equação atual
     count_inc = 0
